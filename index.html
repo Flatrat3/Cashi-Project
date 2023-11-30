@@ -1,451 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/agricul.png" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <title>Cashi</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/utilities.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <!-- Header Section here -->
-    <header class="header-section">
-      <div class="container">
-        <div class="primary-menu flex-space-between">
-          <!-- Logo -->
-          <div class="logo">
-            <a href="#">
-              <img src="assets/01.png" alt="logo" />
-            </a>
-          </div>
-          <!-- Main-area -->
-          <div class="main-area flex-end wrap">
-            <ul class="agri-ul flex">
-              <li>
-                <a href="#" class="active"
-                  >Home
-                  <i class="fa-solid fa-caret-down"></i>
-                </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/agricul.png" type="image/x-icon" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Cashi</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-                <ul class="dropdown-ul">
-                  <li><a href="#">Agriculture Farm1</a></li>
-                  <li><a href="#">Agriculture Farm2</a></li>
-                  <li><a href="#">Agriculture Farm3</a></li>
-                  <li><a href="#">Agriculture Farm4</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Pages<i class="fa-solid fa-caret-down"></i></a>
+<body>
+  <!-- Header Section here -->
+  <header class="header-section">
+    <div class="container">
+      <div class="primary-menu flex-space-between">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">
+            <img src="assets/01.png" alt="logo" />
+          </a>
+        </div>
+        <!-- Main-area -->
+        <div class="main-area flex-end wrap">
+          <ul class="agri-ul flex">
+            <li>
+              <a href="#" class="active">Home
+                <i class="fa-solid fa-caret-down"></i>
+              </a>
 
-                <ul class="dropdown-ul">
-                  <li><a href="#">About Page</a></li>
-                  <li class="service-page">
-                    <a href="#"
-                      >Service Page <i class="fa-solid fa-caret-right"></i
-                    ></a>
-                    <ul class="dropdown-ul-ul">
-                      <li><a href="#">Agriculture Farm1</a></li>
-                      <li><a href="#">Agriculture Farm2</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Team Page</a></li>
-                  <li><a href="#">FAQ Page</a></li>
-                  <li><a href="#">404 Page</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Gallery<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-ul">
+                <li><a href="#">Agriculture Farm1</a></li>
+                <li><a href="#">Agriculture Farm2</a></li>
+                <li><a href="#">Agriculture Farm3</a></li>
+                <li><a href="#">Agriculture Farm4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Pages<i class="fa-solid fa-caret-down"></i></a>
 
-                <ul class="dropdown-ul">
-                  <li><a href="#">Gallery 2 Grid</a></li>
-                  <li><a href="#">Gallery 2 Masonary</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Blog<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-ul">
+                <li><a href="#">About Page</a></li>
+                <li class="service-page">
+                  <a href="#">Service Page <i class="fa-solid fa-caret-right"></i></a>
+                  <ul class="dropdown-ul-ul">
+                    <li><a href="#">Agriculture Farm1</a></li>
+                    <li><a href="#">Agriculture Farm2</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Team Page</a></li>
+                <li><a href="#">FAQ Page</a></li>
+                <li><a href="#">404 Page</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Gallery<i class="fa-solid fa-caret-down"></i></a>
 
-                <ul class="dropdown-ul">
-                  <li><a href="#">Blog Right Sidebar</a></li>
-                  <li><a href="#">Blog left sidebar</a></li>
-                  <li><a href="#">Blog Single Page</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Shop<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-ul">
+                <li><a href="#">Gallery 2 Grid</a></li>
+                <li><a href="#">Gallery 2 Masonary</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Blog<i class="fa-solid fa-caret-down"></i></a>
 
-                <ul class="dropdown-ul">
-                  <li><a href="#">Product</a></li>
-                  <li><a href="#">Product single</a></li>
-                  <li><a href="#">Cart Page</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-            <!-- Button -->
-            <div class="header-btn">
-              <a href="#" class="lab-btn"><span>Get in Touch</span></a>
-            </div>
+              <ul class="dropdown-ul">
+                <li><a href="#">Blog Right Sidebar</a></li>
+                <li><a href="#">Blog left sidebar</a></li>
+                <li><a href="#">Blog Single Page</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Shop<i class="fa-solid fa-caret-down"></i></a>
+
+              <ul class="dropdown-ul">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Product single</a></li>
+                <li><a href="#">Cart Page</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <div class="header-btn">
+            <a href="#" class="lab-btn"><span>Get in Touch</span></a>
           </div>
         </div>
       </div>
-    </header>
-    <!-- Header section ends here -->
+    </div>
+  </header>
+  <!-- Header section ends here -->
 
-    <!-- Banner section starts here -->
-    <section class="banner bg-img">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="banner-item">
-          <div class="banner-content">
-            <h3>Agricul Farm</h3>
-            <div class="banner-title">Fresh Organic Honey and Beekeeping.</div>
-            <div class="banner-desc">
-              Dynamically supply web-enabled portals for high standards income
-              Completely productivate optimal sources strategic.
-            </div>
-            <a href="#" class="lab-btn"><span>Shop Now</span></a>
+  <!-- Banner section starts here -->
+  <section class="banner bg-img">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="banner-item">
+        <div class="banner-content">
+          <h3>Agricul Farm</h3>
+          <div class="banner-title">Fresh Organic Honey and Beekeeping.</div>
+          <div class="banner-desc">
+            Dynamically supply web-enabled portals for high standards income
+            Completely productivate optimal sources strategic.
           </div>
+          <a href="#" class="lab-btn"><span>Shop Now</span></a>
         </div>
       </div>
-    </section>
-    <!-- Banner section ends here -->
+    </div>
+  </section>
+  <!-- Banner section ends here -->
 
-    <!-- product section start here -->
-    <section class="abs-product">
-      <div class="container">
-        <div class="section-wrapper">
-          <div class="section-wrapper-flex">
-            <div class="abs-product-item">
-              <div class="abs-product-inner">
-                <div class="abs-product-thumb">
-                  <img src="assets/05.png" alt="" />
-                </div>
-                <div class="abs-product-content">
-                  <h5>Free Shipping</h5>
-                  <p>
-                    Conveniently customize leveraged interfaces without globally
-                  </p>
-                </div>
+  <!-- product section start here -->
+  <section class="abs-product">
+    <div class="container">
+      <div class="section-wrapper">
+        <div class="section-wrapper-flex">
+          <div class="abs-product-item">
+            <div class="abs-product-inner">
+              <div class="abs-product-thumb">
+                <img src="assets/05.png" alt="" />
+              </div>
+              <div class="abs-product-content">
+                <h5>Free Shipping</h5>
+                <p>
+                  Conveniently customize leveraged interfaces without globally
+                </p>
               </div>
             </div>
-            <div class="abs-product-item">
-              <div class="abs-product-inner">
-                <div class="abs-product-thumb">
-                  <img src="assets/06.png" alt="" />
-                </div>
-                <div class="abs-product-content">
-                  <h5>Return Guarantee</h5>
-                  <p>
-                    Conveniently customize leveraged interfaces without globally
-                  </p>
-                </div>
+          </div>
+          <div class="abs-product-item">
+            <div class="abs-product-inner">
+              <div class="abs-product-thumb">
+                <img src="assets/06.png" alt="" />
+              </div>
+              <div class="abs-product-content">
+                <h5>Return Guarantee</h5>
+                <p>
+                  Conveniently customize leveraged interfaces without globally
+                </p>
               </div>
             </div>
-            <div class="abs-product-item">
-              <div class="abs-product-inner">
-                <div class="abs-product-thumb">
-                  <img src="assets/07.png" alt="" />
-                </div>
-                <div class="abs-product-content">
-                  <h5>Payment Securtion</h5>
-                  <p>
-                    Conveniently customize leveraged interfaces without globally
-                  </p>
-                </div>
+          </div>
+          <div class="abs-product-item">
+            <div class="abs-product-inner">
+              <div class="abs-product-thumb">
+                <img src="assets/07.png" alt="" />
+              </div>
+              <div class="abs-product-content">
+                <h5>Payment Securtion</h5>
+                <p>
+                  Conveniently customize leveraged interfaces without globally
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- product section ends here -->
+    </div>
+  </section>
+  <!-- product section ends here -->
 
-    <!-- Produce Our Honey starts here -->
-    <section class="product-section">
-      <div class="container">
-        <div class="section-header">
-          <h3>How We Produce Our Honey</h3>
-          <p>
-            Conveniently customize proactives into everaged interfaces without
-            Globally
-          </p>
-        </div>
-
-        <div class="section-wrapper-honey">
-          <div class="product-left">
-            <div class="product-item">
-              <div class="product-thumb">
-                <img src="assets/product01.png" />
-              </div>
-              <div class="product-content">
-                <a href="#"><h5>Flowers produce nectar and attract</h5></a>
-                <p>Continually aggregate friction and web interfaces thout</p>
-              </div>
-            </div>
-            <div class="product-item">
-              <div class="product-thumb">
-                <img src="assets/BEEE.png" />
-              </div>
-              <div class="product-content">
-                <a href="#"
-                  ><h5>Bees collect the nectar carry to the beehive.</h5></a
-                >
-                <p>Continually aggregate friction and web interfaces thout</p>
-              </div>
-            </div>
-            <div class="product-item">
-              <div class="product-thumb">
-                <img src="assets/03.png" />
-              </div>
-              <div class="product-content">
-                <a href="#"
-                  ><h5>Bees seal cells with wax and honey ripens.</h5></a
-                >
-                <p>Continually aggregate friction and web interfaces thout</p>
-              </div>
-            </div>
-            <div class="product-item">
-              <div class="product-thumb">
-                <img src="assets/cova.png" />
-              </div>
-              <div class="product-content">
-                <a href="#"
-                  ><h5>
-                    We collect the product and transfer to the packaging.
-                  </h5></a
-                >
-                <p>Continually aggregate friction and web interfaces thout</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-right">
-            <div class="product-slider-thumb">
-              <img src="assets/03.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Produce Our Honey ends here -->
-
-    <!-- Product Section beekeeping starts here -->
-    <section class="product-section-beekeeping">
+  <!-- Produce Our Honey starts here -->
+  <section class="product-section">
+    <div class="container">
       <div class="section-header">
-        <h3>Beekeeping Farm Products</h3>
+        <h3>How We Produce Our Honey</h3>
         <p>
           Conveniently customize proactives into everaged interfaces without
           Globally
         </p>
       </div>
 
-      <div class="shape-image">
-        <img class="shape-1" src="assets/tomato.png" alt="" />
-        <img class="shape-2" src="assets/kivi.png" alt="" />
-      </div>
-
-      <div class="container">
-        <div class="beekeeping-section-wrapper">
-          <div class="product-item-2">
-            <div class="product-item-thumb">
-              <img src="assets/beePool.jpg" alt="" />
-            </div>
-
-            <div class="product-item-2-content">
-              <a href="#"><h5>Bee Pollen Honey</h5></a>
-              <div class="rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <h6 class="price">$39.99</h6>
-
-              <div class="cart-option">
-                <a href="#" class="lab-btn"><span>Add To Cart</span></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-item-2">
-            <div class="product-item-thumb">
-              <img src="assets/austurailanhoney.jpg" alt="" />
-            </div>
-
-            <div class="product-item-2-content">
-              <a href="#"><h5>Organic Honey</h5></a>
-              <div class="rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <h6 class="price">$39.99</h6>
-
-              <div class="cart-option">
-                <a href="#" class="lab-btn"><span>Add To Cart</span></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-item-2">
-            <div class="product-item-thumb">
-              <img src="assets/ave.jpg" alt="" />
-            </div>
-
-            <div class="product-item-2-content">
-              <a href="#"><h5>Comb in Honey</h5></a>
-              <div class="rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <h6 class="price">$39.99</h6>
-
-              <div class="cart-option">
-                <a href="#" class="lab-btn"><span>Add To Cart</span></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-item-2">
-            <div class="product-item-thumb">
-              <img src="assets/eco honey.jpg" alt="" />
-            </div>
-
-            <div class="product-item-2-content">
-              <a href="#"><h5>Eco Honey</h5></a>
-              <div class="rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <h6 class="price">$39.99</h6>
-
-              <div class="cart-option">
-                <a href="#" class="lab-btn"><span>Add To Cart</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Button -->
-
-        <div class="beekeeping-btn">
-          <a href="#" class="lab-btn"><span>View Product</span></a>
-        </div>
-      </div>
-    </section>
-    <!-- Product Section beekeeping ends here -->
-
-    <!-- Beekeeping Farm Gallery starts here -->
-    <section class="product-beekeeping-gallery">
-      <div class="section-header">
-        <h3>Beekeeping Farm Gallery</h3>
-        <p>
-          Conveniently customize proactives into everaged interfaces without
-          Globally
-        </p>
-      </div>
-
-      <div class="container">
-        <div class="section-gallery-wrapper">
-
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/honeyer.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Honey</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/gallery2.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Carrot</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/gallery-tomato.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Tomato</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/sunflower4.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Sunflower</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/honeyer.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Apple</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/07.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Apple</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
+      <div class="section-wrapper-honey">
+        <div class="product-left">
+          <div class="product-item">
             <div class="product-thumb">
-              <img src="assets/05.jpg" />
+              <img src="assets/product01.png" />
             </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Apple</a>
-            </div>
-          </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/08.jpg" />
-            </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Banana</a>
+            <div class="product-content">
+              <a href="#">
+                <h5>Flowers produce nectar and attract</h5>
+              </a>
+              <p>Continually aggregate friction and web interfaces thout</p>
             </div>
           </div>
-          <div class="product-item-gallery">
-            <div class="product-thumb-gallery">
-              <img src="assets/09.jpg" />
+          <div class="product-item">
+            <div class="product-thumb">
+              <img src="assets/BEEE.png" />
             </div>
-            <div class="product-content-gallery">
-              <a href="#" class="product-name">Apple</a>
+            <div class="product-content">
+              <a href="#">
+                <h5>Bees collect the nectar carry to the beehive.</h5>
+              </a>
+              <p>Continually aggregate friction and web interfaces thout</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-thumb">
+              <img src="assets/03.png" />
+            </div>
+            <div class="product-content">
+              <a href="#">
+                <h5>Bees seal cells with wax and honey ripens.</h5>
+              </a>
+              <p>Continually aggregate friction and web interfaces thout</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-thumb">
+              <img src="assets/cova.png" />
+            </div>
+            <div class="product-content">
+              <a href="#">
+                <h5>
+                  We collect the product and transfer to the packaging.
+                </h5>
+              </a>
+              <p>Continually aggregate friction and web interfaces thout</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/03.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/sunflower4.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/gallery2.jpg">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Produce Our Honey ends here -->
+
+  <!-- Product Section beekeeping starts here -->
+  <section class="product-section-beekeeping">
+    <div class="section-header">
+      <h3>Beekeeping Farm Products</h3>
+      <p>
+        Conveniently customize proactives into everaged interfaces without
+        Globally
+      </p>
+    </div>
+
+    <div class="shape-image">
+      <img class="shape-1" src="assets/tomato.png" alt="" />
+      <img class="shape-2" src="assets/kivi.png" alt="" />
+    </div>
+
+    <div class="container">
+      <div class="beekeeping-section-wrapper">
+        <div class="product-item-2">
+          <div class="product-item-thumb">
+            <img src="assets/beePool.jpg" alt="" />
+          </div>
+
+          <div class="product-item-2-content">
+            <a href="#">
+              <h5>Bee Pollen Honey</h5>
+            </a>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6 class="price">$39.99</h6>
+
+            <div class="cart-option">
+              <a href="#" class="lab-btn"><span>Add To Cart</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item-2">
+          <div class="product-item-thumb">
+            <img src="assets/austurailanhoney.jpg" alt="" />
+          </div>
+
+          <div class="product-item-2-content">
+            <a href="#">
+              <h5>Organic Honey</h5>
+            </a>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6 class="price">$39.99</h6>
+
+            <div class="cart-option">
+              <a href="#" class="lab-btn"><span>Add To Cart</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item-2">
+          <div class="product-item-thumb">
+            <img src="assets/ave.jpg" alt="" />
+          </div>
+
+          <div class="product-item-2-content">
+            <a href="#">
+              <h5>Comb in Honey</h5>
+            </a>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6 class="price">$39.99</h6>
+
+            <div class="cart-option">
+              <a href="#" class="lab-btn"><span>Add To Cart</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item-2">
+          <div class="product-item-thumb">
+            <img src="assets/eco honey.jpg" alt="" />
+          </div>
+
+          <div class="product-item-2-content">
+            <a href="#">
+              <h5>Eco Honey</h5>
+            </a>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6 class="price">$39.99</h6>
+
+            <div class="cart-option">
+              <a href="#" class="lab-btn"><span>Add To Cart</span></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Beekeeping Farm Gallery ends here -->
+      <!-- Button -->
 
-    <script src="app.js"></script>
-  </body>
+      <div class="beekeeping-btn">
+        <a href="#" class="lab-btn"><span>View Product</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- Product Section beekeeping ends here -->
+
+  <!-- Beekeeping Farm Gallery starts here -->
+  <section class="product-beekeeping-gallery">
+    <div class="section-header">
+      <h3>Beekeeping Farm Gallery</h3>
+      <p>
+        Conveniently customize proactives into everaged interfaces without
+        Globally
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="section-gallery-wrapper">
+
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/honeyer.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Honey</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/gallery2.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Carrot</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/gallery-tomato.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Tomato</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/sunflower4.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Sunflower</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/honeyer.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Apple</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/07.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Apple</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb">
+            <img src="assets/05.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Apple</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/08.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Banana</a>
+          </div>
+        </div>
+        <div class="product-item-gallery">
+          <div class="product-thumb-gallery">
+            <img src="assets/09.jpg" />
+          </div>
+          <div class="product-content-gallery">
+            <a href="#" class="product-name">Apple</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Beekeeping Farm Gallery ends here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
 </html>
