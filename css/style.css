@@ -544,3 +544,100 @@ img {
 }
 
 /*  Product Section beekeeping gallery ends here  */
+
+
+/* Countdown-section-starts-here */
+
+.countdown-section{
+  position: relative;
+  background: url(../assets/bg-countdown.jpg);
+  padding: 30px 0px;
+  margin-top: 95px;
+}
+
+.shape-1-countdown{
+  position: absolute;
+  right: 0;
+    top: -100px;
+}
+
+.shape-2-countdown{
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+}
+
+
+.countdown-section-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-section-flex .countdown-left{
+  text-align: center;
+  width: 50%;
+}
+
+.countdown-left h2{
+  color: #fff;
+  font-size: 48px;
+    line-height: 60px;
+}
+
+.countdown-left>p{
+  color: #fff;
+  margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.countdown-li{
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-li li{
+  width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.countdown-li li h3{
+  color: #ffb11f;
+  margin: 10px 0 0;
+  font-size: 36px;
+    line-height: 45px;
+}
+
+
+.days_text{
+  font-size: 15px;
+  color: #181818;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.countdown-left a.lab-btn{
+  background: #fff;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.countdown-left a.lab-btn span{
+  color: #ffb11f;
+}
+
+.countdown-left a.lab-btn:hover span{
+  color: #fff;
+}
+
+/* Countdown-section-ends-here */
