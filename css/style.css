@@ -724,12 +724,112 @@ img {
   position: absolute;
   right: 6%;
 }
-
-/* Add this to your existing CSS */
-
-
-
-
 /* Testimonial section ends here */
 
 
+/* Blog section starts starts here */
+.blog-section{
+  background: #f8fafe;
+  padding-top: 110px;
+  padding-bottom: 95px;
+}
+
+
+.section-blog-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 10px;
+}
+
+
+
+.blog-card{
+  box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
+  transition: all 0.3s ease;
+    margin-bottom: 35px;
+    flex: 33.3%;
+}
+
+.blog-card:hover{
+  transform: scale(1.1);
+}
+
+.post-thumb{
+  position: relative;
+}
+
+.post-thumb a {
+  display: block;
+}
+
+.post-thumb a img{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.post-content{
+  background: #fff;
+  padding: 30px;
+}
+
+
+.post-date{
+  margin-bottom: 15px;
+}
+
+.post-date li span a{
+  color: #181818;
+}
+
+.post-date li {
+  display: inline-block;
+    padding-right: 15px;
+}
+
+.post-date li i{
+  margin-right: 6px;
+  color: #ffb11f;
+}
+
+.post-content a h5{
+  margin-bottom: 10px;
+  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.post-content p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #716c80;
+  line-height: 24px;
+}
+
+.post-content a.lab-btn {
+  background: #f8fafe;
+    padding: 12px 40px;
+}
+
+.post-content a.lab-btn span{
+  color: var(--swiper-theme-color);
+}
+
+.post-content a.lab-btn::after{
+  background-color: var(--swiper-theme-color);
+}
+
+.post-content a.lab-btn:hover span{
+  color: #fff;
+}
+
+/* Blog section starts ends here */
