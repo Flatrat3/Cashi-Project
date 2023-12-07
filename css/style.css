@@ -752,9 +752,7 @@ img {
     flex: 33.3%;
 }
 
-.blog-card:hover{
-  transform: scale(1.1);
-}
+
 
 .post-thumb{
   position: relative;
@@ -832,4 +830,67 @@ img {
   color: #fff;
 }
 
+
+.blog-card:hover{
+  transform: translateY(-5px);
+}
+
+.blog-card:hover .post-thumb a img{
+  transform: translateY(1.1);
+}
+
 /* Blog section starts ends here */
+
+/* newsletter-section starts here */
+.newsletter-section{
+  padding: 60px 0;
+  background: #ffb11f;
+
+}
+
+
+.newsletter-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter-title h4{
+  color: #fff;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.newsletter-form{
+  padding: 10px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.newsletter-form form{
+  display: flex;
+}
+
+
+.input-email{
+  padding: 15px ;
+  padding-left: 5px;
+  margin-right: 5px;
+  height: 40px;
+  border: none;
+  outline: none;
+  width: calc(100% - 130px);
+}
+
+.subscribe-btn{
+  width: 120px;
+  padding: 0 15px;
+  color: #fff;
+  background: #ffb11f;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+
+/* newsletter-section ends here */
