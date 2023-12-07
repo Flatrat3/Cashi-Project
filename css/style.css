@@ -641,3 +641,95 @@ img {
 }
 
 /* Countdown-section-ends-here */
+
+
+/* Testimonial section starts here */
+
+.testimonial-section{
+  padding-top: 110px;
+  padding-bottom: 95px;
+}
+
+.testimonial-section .section-header p{
+  margin-top: 12px;
+}
+
+.testimonial-card {
+  position: relative;
+  box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
+  padding: 30px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 10px auto;
+  width: 776px;
+    
+}
+
+.testimonial-card:hover .testimonial-clients a h5{
+  color: #ffb11f;
+}
+
+
+.testimonial-card:hover{
+  transform: scale(1.1);
+}
+
+.testimonial-head{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.testimonial-thumb{
+  width: 86px;
+  height: 86px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.testimonial-head .testimonial-thumb img{
+  width: 100%;
+  height:100%;
+  border-radius: 86px;
+  
+}
+
+.testimonial-clients a {
+  text-decoration: none;
+  color: #181818;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.testimonial-clients a h5{
+  font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.testimonial-clients .rating i{
+  color: rgb(255, 255, 128);
+}
+
+.testimonial-body .img-left{
+  position: absolute;
+    top: 44%;
+}
+
+.testimonial-body .img-right{
+
+  position: absolute;
+  right: 6%;
+}
+
+/* Add this to your existing CSS */
+
+
+
+
+/* Testimonial section ends here */
+
+
