@@ -892,5 +892,44 @@ img {
   font-size: 16px;
 }
 
-
 /* newsletter-section ends here */
+
+
+/* Footer section stars here */
+
+
+.footer-section{
+  position: relative;
+  background-color: #0f1b28;
+  padding-top: 110px;
+  height: 513px;
+}
+
+.footer-section::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  background: url(../assets/footer-top-bg.png);
+  transform: translateY(-50%);
+}
+
+
+.footer-top-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.footer-desc p{
+  color: #fff;
+    font-size: 15px;
+}
+.footer-desc p:first-child{
+  margin-bottom: 15px;
+}
+
+/* Footer section ends here */
