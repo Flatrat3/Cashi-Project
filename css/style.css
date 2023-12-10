@@ -1181,6 +1181,9 @@ a.scrollTop {
     justify-content: center;
   }
 
+  .section-gallery-wrapper {
+    grid-template-columns: repeat(1, auto) !important;
+  }
   .blog-card {
     width: 100%;
     padding: 18px;
@@ -1225,7 +1228,7 @@ a.scrollTop {
 
 /* Responsive max-width 576px */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   div.main-area {
     display: none;
   }
